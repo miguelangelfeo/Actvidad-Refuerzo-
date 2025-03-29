@@ -31,5 +31,7 @@ Al principio se encontraron desafíos debido a la falta de conocimiento de cómo
 
 # Referencias
 [1] “¿Qué es el MQTT? - Explicación del protocolo MQTT - AWS”. Amazon Web Services, Inc. Accedido el 29 de marzo de 2025. [En línea]. Disponible: https://aws.amazon.com/es/what-is/mqtt/
+
 [2] Fernando Méndez. Cisco Packet Tracer - Sensor de Agua | Water Sensor | LCD | MCU. (9 de julio de 2019). Accedido el 29 de marzo de 2025. [Video en línea]. Disponible: https://www.youtube.com/watch?v=LCqogQk_DMg
+
 [3] RKiLAB. Setting UP MQQT Broker and Client In Cisco Packet Tracer. (14 de abril de 2023). Accedido el 29 de marzo de 2025. [Video en línea]. Disponible: https://www.youtube.com/watch?v=AY4TiM2uldI
