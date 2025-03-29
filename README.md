@@ -7,8 +7,6 @@ Carlos Zuluaga
 
 # Tipo de red seleccionado 
 
-
-
 La solución implementada se basa en conectividad Wi-Fi, dado que es una tecnología ampliamente disponible en el campus universitario, con cobertura suficiente para enlazar los distintos sensores distribuidos por puntos estratégicos. 
 
 # Protocolos de Comunicación 
@@ -20,3 +18,12 @@ El broker MQTT es ejecutado en un microcontrolador, el cual será el intermediar
 # Descripción del diseño  
 
 El proyecto establecido en este caso busca demostrar la medición de consumo del agua, utilizando un monitor de cantidad de agua, y un componente el cual permite simular el uso del agua ya sea de un lavamanos, una manguera, entre otros.  
+En la imagen se puede ver el diseño planteado, donde se tiene un servidor, un pc el cual va a permitir monitorear los datos obtenidos de los componentes IoT, que en este caso es un monitor del uso del agua, y una regadera que se puede tomar como una forma de uso de agua, que es lo que se buscaba con la actividad.  
+
+En el diseño, en el servidor se dispuso de una red IP, la cual aloja un servidor web, el cual permite ver y controlar los componentes IoT, en el pc se puede ver esta información, se puede activar el componente que simula el gasto del agua, e instantáneamente se comienza a aumentar la cantidad de agua utilizada, y esto se muestra en el monitor de agua. Además, se tiene el MCU el cual permite encender un led definiendo un límite utilizando los datos recolectados con los sensores.  
+ 
+# Validación de Diseño 
+
+Las pruebas realizadas en el proyecto consistieron en verificar la conectividad y la transmisión de datos entre los sensores y la plataforma de monitoreo a través del protocolo MQTT. En el caso de la simulación, la conexión debía evidenciarse mediante la visualización del de los niveles de agua en el monitor y el funcionamiento de un actuador, el LED. El diseño fue capaz de pasar estas pruebas, mostrando una correcta conexión entre los componentes.  
+
+Al principio se encontraron desafíos debido a la falta de conocimiento de cómo aplicar MQTT en packet tracer, y la manera en la que los dispositivos se podrían conectar. Pero finalmente se logró encontrar una solución mediante investigaciones y se logró comprender correctamente el funcionamiento de estos
