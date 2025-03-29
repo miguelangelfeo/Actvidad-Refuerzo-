@@ -19,6 +19,7 @@ El broker MQTT es ejecutado en un microcontrolador, el cual será el intermediar
 
 El proyecto establecido en este caso busca demostrar la medición de consumo del agua, utilizando un monitor de cantidad de agua, y un componente el cual permite simular el uso del agua ya sea de un lavamanos, una manguera, entre otros.  
 En la imagen se puede ver el diseño planteado, donde se tiene un servidor, un pc el cual va a permitir monitorear los datos obtenidos de los componentes IoT, que en este caso es un monitor del uso del agua, y una regadera que se puede tomar como una forma de uso de agua, que es lo que se buscaba con la actividad.  
+![](https://github.com/miguelangelfeo/Actvidad-Refuerzo-/blob/master/imagen_2025-03-28_211237182.png)
 
 En el diseño, en el servidor se dispuso de una red IP, la cual aloja un servidor web, el cual permite ver y controlar los componentes IoT, en el pc se puede ver esta información, se puede activar el componente que simula el gasto del agua, e instantáneamente se comienza a aumentar la cantidad de agua utilizada, y esto se muestra en el monitor de agua. Además, se tiene el MCU el cual permite encender un led definiendo un límite utilizando los datos recolectados con los sensores.  
  
