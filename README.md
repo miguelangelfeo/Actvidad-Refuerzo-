@@ -28,3 +28,6 @@ En el diseño, en el servidor se dispuso de una red IP, la cual aloja un servido
 Las pruebas realizadas en el proyecto consistieron en verificar la conectividad y la transmisión de datos entre los sensores y la plataforma de monitoreo a través del protocolo MQTT. En el caso de la simulación, la conexión debía evidenciarse mediante la visualización del de los niveles de agua en el monitor y el funcionamiento de un actuador, el LED. El diseño fue capaz de pasar estas pruebas, mostrando una correcta conexión entre los componentes.  
 
 Al principio se encontraron desafíos debido a la falta de conocimiento de cómo aplicar MQTT en packet tracer, y la manera en la que los dispositivos se podrían conectar. Pero finalmente se logró encontrar una solución mediante investigaciones y se logró comprender correctamente el funcionamiento de estos
+
+# Referencias
+https://aws.amazon.com/es/what-is/mqtt/
