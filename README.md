@@ -16,6 +16,7 @@ En el caso del sistema IoT para el monitoreo de agua y cloro, los sensores encar
 El broker MQTT es ejecutado en un microcontrolador, el cual será el intermediario que se encarga de recibir los datos enviados por los sensores y distribuirlos a los suscriptores correspondientes, en este caso, una plataforma de monitoreo que visualiza estos datos en tiempo real. 
 
 # Descripción del diseño  
+Principalmente se establecieron los roles, donde 2 personas se encargaron de buscar la forma en la que se debian trabajar los componentes en el cisco packet tracer, y la otra persona tenia que realizar el diseño con las indicaciones dadas por los otros integrantes
 
 El proyecto establecido en este caso busca demostrar la medición de consumo del agua, utilizando un monitor de cantidad de agua, y un componente el cual permite simular el uso del agua ya sea de un lavamanos, una manguera, entre otros.[2]  
 En la imagen se puede ver el diseño planteado, donde se tiene un servidor, un pc el cual va a permitir monitorear los datos obtenidos de los componentes IoT, que en este caso es un monitor del uso del agua, y una regadera que se puede tomar como una forma de uso de agua, que es lo que se buscaba con la actividad.  
